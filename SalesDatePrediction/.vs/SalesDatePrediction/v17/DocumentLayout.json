@@ -1,0 +1,901 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\icustomerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\icustomerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\icustomerorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\icustomerorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\shippercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\shippercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\customerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\customerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC479EEC-E81D-409B-BFBA-CAAFF01B241A}|SalesDatePrediction.Api\\SalesDatePrediction.Api.csproj|solutionrelative:salesdateprediction.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\shipperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\shipperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\services\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\services\\customerorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\shipperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\shipperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\orderdetailprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\orderdetailprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\employeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\mappings\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\mappings\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\common\\idependencyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\common\\idependencyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\orderwithdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\orderwithdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\dependencyinjection\\dependecyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\dependencyinjection\\dependecyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\shipperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\shipperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.infrastructure\\repositories\\customerorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29238CD5-1560-4FFA-B1CD-F796CE723CC8}|SalesDatePrediction.Infrastructure\\SalesDatePrediction.Infrastructure.csproj|solutionrelative:salesdateprediction.infrastructure\\repositories\\customerorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\ishipperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\ishipperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\ishipperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\ishipperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.domain\\entities\\custorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|solutionrelative:salesdateprediction.domain\\entities\\custorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|solutionrelative:salesdateprediction.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA1DE56-F22D-4AB3-A95D-E27E564DDCDF}|SalesDatePrediction.Domain\\SalesDatePrediction.Domain.csproj|solutionrelative:salesdateprediction.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\shipperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\shipperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\salespredictiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\salespredictiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|c:\\users\\rocks\\downloads\\prueba-sales-prediction-fullstack\\salesdateprediction\\salesdateprediction.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16665FA9-D9D4-4DCF-8CE5-ECF165059940}|SalesDatePrediction.Application\\SalesDatePrediction.Application.csproj|solutionrelative:salesdateprediction.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\CustomerOrderController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\CustomerOrderController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\CustomerOrderController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\CustomerOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:54:59.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:32:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T16:55:18.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:32:57.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:00.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShipperController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\ShipperController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\ShipperController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\ShipperController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\ShipperController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:03.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerOrderRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerOrderRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerOrderRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:27.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICustomerOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerOrderService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerOrderService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerOrderService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:30.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Api\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Api\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "SalesDatePrediction.Api\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:32:43.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShipperService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\ShipperService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\ShipperService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\ShipperService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\ShipperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:29.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:26.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:23.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\OrderDetailService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\OrderDetailService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\OrderDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:20.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:15.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\CustomerService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:14.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\CustomerOrderService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Services\\CustomerOrderService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Services\\CustomerOrderService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Services\\CustomerOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:13.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShipperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\ShipperProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\ShipperProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\ShipperProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\ShipperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:10.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\ProductProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:09.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\OrderProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\OrderProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\OrderProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\OrderProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:08.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetailProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\OrderDetailProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\OrderDetailProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\OrderDetailProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\OrderDetailProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:06.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\EmployeeProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\EmployeeProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\EmployeeProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\EmployeeProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:05.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Mappings\\CustomerProfile.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Mappings\\CustomerProfile.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Mappings\\CustomerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:52.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDependencyRegister.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Common\\IDependencyRegister.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Common\\IDependencyRegister.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Common\\IDependencyRegister.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Common\\IDependencyRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:39:48.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderWithDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderWithDetailDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\OrderWithDetailDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderWithDetailDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\OrderWithDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:20.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:03:53.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:51.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DependecyRegister.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\DependencyInjection\\DependecyRegister.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\DependencyInjection\\DependecyRegister.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\DependencyInjection\\DependecyRegister.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\DependencyInjection\\DependecyRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:02.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShipperRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\ShipperRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\ShipperRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\ShipperRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\ShipperRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:27.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:24.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:33.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IOrderService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:42.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:05:14.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:17.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:14.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:35:11.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomerOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\CustomerOrderRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Infrastructure\\Repositories\\CustomerOrderRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Infrastructure\\Repositories\\CustomerOrderRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Infrastructure\\Repositories\\CustomerOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:04:59.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\OrderDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:03:38.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\OrderDetailDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\OrderDetailDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:03:59.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\EmployeeDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:49:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IShipperService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IShipperService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\IShipperService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IShipperService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\IShipperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:48.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IShipperRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IShipperRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IShipperRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IShipperRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IShipperRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:44.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:46.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:43.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:41.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\IOrderDetailService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IOrderDetailService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\IOrderDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:40.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\IOrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:39.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:34.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:32.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:31.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CustOrder.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\CustOrder.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Domain\\Entities\\CustOrder.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\CustOrder.cs",
+              "RelativeToolTip": "SalesDatePrediction.Domain\\Entities\\CustOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:45.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "SalesDatePrediction.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:42.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "SalesDatePrediction.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:34:39.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ShipperDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\ShipperDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\ShipperDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\ShipperDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\ShipperDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:23.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T19:33:21.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SalesPredictionDto.cs",
+              "DocumentMoniker": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\SalesPredictionDto.cs",
+              "RelativeDocumentMoniker": "SalesDatePrediction.Application\\Dtos\\SalesPredictionDto.cs",
+              "ToolTip": "C:\\Users\\rocks\\Downloads\\prueba-sales-prediction-fullstack\\SalesDatePrediction\\SalesDatePrediction.Application\\Dtos\\SalesPredictionDto.cs",
+              "RelativeToolTip": "SalesDatePrediction.Application\\Dtos\\SalesPredictionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T17:25:16.942Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+::ng-deep .dialog-title {
+  background-color: #2e7d32; /* verde oscuro */
+  color: white;
+  padding: 16px;
+}
+
+::ng-deep .dialog-title h2 {
+  margin: 0;
+}
+
+::ng-deep .mat-dialog-actions button.mat-raised-button {
+  background-color: #388e3c !important; /* verde material */
+  color: white !important;
+}
+
+::ng-deep .mat-dialog-actions button.mat-raised-button:hover {
+  background-color: #1b5e20 !important;
+}
+
+::ng-deep .mat-dialog-actions button.mat-button {
+  color: #388e3c !important;
+}

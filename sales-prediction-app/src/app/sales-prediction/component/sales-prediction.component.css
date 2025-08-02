@@ -1,0 +1,75 @@
+
+.main-container {
+  padding: 24px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.toolbar {
+  background-color: #212121; /* Negro oscuro */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 64px;
+}
+
+.toolbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 36px;
+}
+
+/* Título y búsqueda */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.search-container {
+  max-width: 300px;
+}
+
+.search-field {
+  width: 100%;
+  margin-left: auto;
+}
+
+/* Tabla y botones */
+.table-container {
+  overflow: auto;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.custom-table {
+  width: 100%;
+  font-size: 14px;
+}
+
+.view-orders-button {
+  color: red;
+  background: none;
+  border: none;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.new-order-button {
+  color: green;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Paginador */
+mat-paginator {
+  margin-top: 16px;
+}

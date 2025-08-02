@@ -1,0 +1,59 @@
+/* src/app/components/orders-modal/orders-modal.component.css */
+table {
+  width: 100%;
+}
+
+.table-container {
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 700px; /* o el ancho que quieras para el modal */
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: white; /* si no tiene fondo, para que se vea */
+  overflow: hidden; /* evitar que salga contenido */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 16px 0 0 0;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.modal-header {
+  background-color: #d32f2f; /* rojo oscuro */
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Botón cerrar rojo */
+.modal-footer button {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.modal-footer button:hover {
+  background-color: #b71c1c; /* rojo más oscuro al pasar mouse */
+}
+
+/* Si tienes un botón de cerrar en el header (icono) */
+button[mat-icon-button] {
+  color: white;
+}

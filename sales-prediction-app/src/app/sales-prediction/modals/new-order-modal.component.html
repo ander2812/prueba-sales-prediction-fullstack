@@ -1,0 +1,94 @@
+<!-- src/app/components/new-order-modal/new-order-modal.component.html -->
+<div class="dialog-title">
+  <h2 mat-dialog-title>Nueva Orden para {{ data.customerName }}</h2>
+</div>
+<mat-dialog-content>
+  <form [formGroup]="form" class="order-form">
+    <mat-form-field appearance="fill">
+      <mat-label>ID Empleado</mat-label>
+      <input matInput formControlName="empid">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>ID Transportista</mat-label>
+      <input matInput formControlName="shipperid">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre de Envío</mat-label>
+      <input matInput formControlName="shipname">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Dirección de Envío</mat-label>
+      <input matInput formControlName="shipaddress">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Ciudad de Envío</mat-label>
+      <input matInput formControlName="shipcity">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>País de Envío</mat-label>
+      <input matInput formControlName="shipcountry">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Región de Envío</mat-label>
+      <input matInput formControlName="shipregion">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Código Postal de Envío</mat-label>
+      <input matInput formControlName="shippostalcode">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Flete</mat-label>
+      <input matInput type="number" formControlName="freight">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Fecha de Orden</mat-label>
+      <input matInput [matDatepicker]="orderPicker" formControlName="orderdate">
+      <mat-datepicker-toggle matSuffix [for]="orderPicker"></mat-datepicker-toggle>
+      <mat-datepicker #orderPicker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Fecha Requerida</mat-label>
+      <input matInput [matDatepicker]="requiredPicker" formControlName="requireddate">
+      <mat-datepicker-toggle matSuffix [for]="requiredPicker"></mat-datepicker-toggle>
+      <mat-datepicker #requiredPicker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Fecha de Envío</mat-label>
+      <input matInput [matDatepicker]="shippedPicker" formControlName="shippeddate">
+      <mat-datepicker-toggle matSuffix [for]="shippedPicker"></mat-datepicker-toggle>
+      <mat-datepicker #shippedPicker></mat-datepicker>
+    </mat-form-field>
+
+    <h3>Detalles de la Orden</h3>
+    <div formArrayName="orderDetails" class="order-details-container">
+      <div *ngFor="let orderDetail of orderDetails.controls; let i = index" [formGroupName]="i" class="order-detail-item">
+        <mat-form-field appearance="fill">
+          <mat-label>ID Producto</mat-label>
+          <input matInput formControlName="productid">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Precio Unitario</mat-label>
+          <input matInput type="number" formControlName="unitprice">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Cantidad</mat-label>
+          <input matInput type="number" formControlName="qty">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Descuento</mat-label>
+          <input matInput type="number" formControlName="discount">
+        </mat-form-field>
+        <button mat-icon-button color="warn" (click)="removeOrderDetail(i)" *ngIf="orderDetails.length > 1">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
+    <button mat-button (click)="addOrderDetail()">Agregar Detalle</button>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>CLOSE</button>
+<button mat-raised-button color="primary" [disabled]="form.invalid" (click)="submit()">SAVE</button>
+</mat-dialog-actions>
+</mat-dialog-actions>
