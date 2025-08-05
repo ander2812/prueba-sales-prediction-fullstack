@@ -41,9 +41,9 @@ Gracias por la oportunidad y quedo atento a cualquier comentario o duda.
 
 # Prueba tecnica completa
 
-##Decidí completar esta prueba técnica a pesar de haber pasado la fecha inicial de entrega, ya que considero importante cerrar bien cada tarea que comienzo. No me gusta dejar las cosas a medias.
+## Decidí completar esta prueba técnica a pesar de haber pasado la fecha inicial de entrega, ya que considero importante cerrar bien cada tarea que comienzo. No me gusta dejar las cosas a medias.
 
-- ## ✅ Funcionalidades completadas
+- ## ✅ Funcionalidades completadas.
 
 ### Frontend
 - Se implementa el buscador.
