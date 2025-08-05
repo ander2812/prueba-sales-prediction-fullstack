@@ -38,3 +38,21 @@
 ---
 
 Gracias por la oportunidad y quedo atento a cualquier comentario o duda.
+
+# Prueba tecnica completa
+
+##Decidí completar esta prueba técnica a pesar de haber pasado la fecha inicial de entrega, ya que considero importante cerrar bien cada tarea que comienzo. No me gusta dejar las cosas a medias.
+
+- ## ✅ Funcionalidades completadas
+
+### Frontend
+- Se implementa el buscador.
+- Se desarrolla la funcionalidad para crear órdenes, dejándo la aplicación completamente funcional.
+
+### Backend
+- Se agregan las pruebas unitarias de la aplicacion.
+- Se asegura la correcta integración con el frontend.
+
+### Aplicación adicional: gráfico de barras con D3.js
+- Se desarrolla la aplicación utilizando **vanilla JavaScript** y **D3.js**.
+- Esta aplicación permite ingresar números y graficarlos como un gráfico de barras horizontal con colores alternados.
