@@ -108,7 +108,7 @@ export class SalesPredictionComponent implements OnInit {
       width: '800px',
       data: { 
         customerName: customer.customerName,
-        customerId: customer.custId
+        custId: customer.custId
       }
     });
 

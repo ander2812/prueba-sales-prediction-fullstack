@@ -4,7 +4,7 @@ using SalesDatePrediction.Application.Interfaces.Repositories;
 
 namespace SalesDatePrediction.Infrastructure.Repositories
 {
-    internal class EmployeeRepository : IEmployeeRepository
+    public class EmployeeRepository : IEmployeeRepository
     {
         private readonly ApplicationDbContext _context;
 

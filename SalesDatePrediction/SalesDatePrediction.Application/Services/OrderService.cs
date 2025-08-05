@@ -33,7 +33,7 @@ namespace SalesDatePrediction.Application.Services
         {
             var order = _mapper.Map<Order>(dto);
 
-            await _repo.AddAsync(order);
+            await _repo.AddOrderWithDetailsAsync(order);
         }
 
         public async Task UpdateAsync(OrderDto dto)

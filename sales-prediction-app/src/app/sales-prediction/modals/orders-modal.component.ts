@@ -13,6 +13,9 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ViewChild, AfterViewInit } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @Component({
   selector: 'app-orders-modal',
@@ -26,7 +29,10 @@ import { MatIconModule } from '@angular/material/icon';
     MatButtonModule,
     MatPaginatorModule,
     MatSortModule,
-    MatIconModule
+    MatDatepickerModule,
+    MatInputModule, 
+    MatNativeDateModule,
+    MatIconModule,
   ]
 })
 export class OrdersModalComponent implements OnInit, AfterViewInit {

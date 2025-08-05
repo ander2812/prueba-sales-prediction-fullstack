@@ -23,6 +23,6 @@ namespace SalesDatePrediction.Application.Dtos
         public string? ShipRegion { get; set; }
         public string? ShipPostalCode { get; set; }
         public string ShipCountry { get; set; } = null!;
-        public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+        public virtual ICollection<OrderDetailDto> OrderDetails { get; set; } = new List<OrderDetailDto>();
     }
 }

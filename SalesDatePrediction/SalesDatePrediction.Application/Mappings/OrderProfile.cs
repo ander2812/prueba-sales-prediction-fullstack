@@ -8,7 +8,8 @@ namespace SalesDatePrediction.Application.Mappings
     {
         public OrderProfile()
         {
-            CreateMap<Order, OrderDto>().ReverseMap();
+            CreateMap<OrderDto, Order>()
+            .ForMember(dest => dest.orderid, opt => opt.Ignore());
         }
     }
 }

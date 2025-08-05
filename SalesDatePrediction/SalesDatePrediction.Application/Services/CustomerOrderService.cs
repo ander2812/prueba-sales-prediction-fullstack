@@ -1,11 +1,6 @@
 ﻿using SalesDatePrediction.Application.Dtos;
 using SalesDatePrediction.Application.Interfaces.Repositories;
 using SalesDatePrediction.Application.Interfaces.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SalesDatePrediction.Application.Services
 {
@@ -18,9 +13,37 @@ namespace SalesDatePrediction.Application.Services
             _repository = repository;
         }
 
-        public Task<List<SalesPredictionDto>> GetSalesPredictionsAsync()
+        public async Task<List<SalesPredictionDto>> GetSalesPredictionsAsync(
+            int pageIndex,
+            int pageSize,
+            string sortField,
+            string sortOrder,
+            string? filterValue)
         {
-            return _repository.GetCustomerSalesPredictionsAsync();
+            var predictions = await _repository.GetCustomerSalesPredictionsAsync();
+
+            if (!string.IsNullOrEmpty(filterValue))
+            {
+                predictions = predictions
+                    .Where(p => p.CustomerName.Contains(filterValue, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
+            if (sortOrder.ToLower() == "desc")
+            {
+                predictions = predictions.OrderByDescending(p => p.CustomerName).ToList();
+            }
+            else
+            {
+                predictions = predictions.OrderBy(p => p.CustomerName).ToList();
+            }
+            
+            predictions = predictions
+                .Skip((pageIndex - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            return predictions;
         }
     }
 }

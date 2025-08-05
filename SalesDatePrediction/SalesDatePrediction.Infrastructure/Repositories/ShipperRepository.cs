@@ -4,7 +4,7 @@ using SalesDatePrediction.Application.Interfaces.Repositories;
 
 namespace SalesDatePrediction.Infrastructure.Repositories
 {
-    internal class ShipperRepository : IShipperRepository
+    public class ShipperRepository : IShipperRepository
     {
         private readonly ApplicationDbContext _context;
 

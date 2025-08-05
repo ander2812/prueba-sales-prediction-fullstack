@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// src/SalesDatePrediction.Api/Controllers/CustomerOrderController.cs
+using Microsoft.AspNetCore.Mvc;
 using SalesDatePrediction.Application.Dtos;
 using SalesDatePrediction.Application.Interfaces.Services;
 
@@ -6,7 +7,7 @@ namespace SalesDatePrediction.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CustomerOrderController: ControllerBase
+    public class CustomerOrderController : ControllerBase
     {
         private readonly ICustomerOrderService _customerOrderService;
 
@@ -16,9 +17,20 @@ namespace SalesDatePrediction.Api.Controllers
         }
 
         [HttpGet("salespredictions")]
-        public async Task<ActionResult<List<SalesPredictionDto>>> GetSalesPredictions()
+        public async Task<ActionResult<List<SalesPredictionDto>>> GetSalesPredictions(
+            [FromQuery] int pageIndex,
+            [FromQuery] int pageSize,
+            [FromQuery] string sortField,
+            [FromQuery] string sortOrder,
+            [FromQuery] string? filterValue)
         {
-            var predictions = await _customerOrderService.GetSalesPredictionsAsync();
+            var predictions = await _customerOrderService.GetSalesPredictionsAsync(
+                pageIndex,
+                pageSize,
+                sortField,
+                sortOrder,
+                filterValue
+            );
 
             return Ok(new
             {
@@ -26,6 +38,5 @@ namespace SalesDatePrediction.Api.Controllers
                 total = predictions.Count()
             });
         }
-
     }
 }

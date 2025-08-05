@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SalesPredictionComponent } from './sales-prediction/component/sales-prediction.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -19,7 +21,10 @@ import { MatDialogModule } from '@angular/material/dialog';
     BrowserAnimationsModule,
     SalesPredictionComponent,
     HttpClientModule,
-    MatDialogModule
+    MatDialogModule,
+    MatDialogModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

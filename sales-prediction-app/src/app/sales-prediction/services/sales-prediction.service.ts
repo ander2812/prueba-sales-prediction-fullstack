@@ -32,8 +32,7 @@ export class SalesPredictionService {
       );
   }
   
-  createOrder(custId: number, orderData: any): Observable<any> {
-    const payload = { ...orderData, custId };
-    return this.http.post(`${this.apiUrl}/orders`, payload);
-  }
+  createOrder(orderData: any): Observable<any> {
+    return this.http.post(`${this.apiUrl}/order`, orderData);
+  }
 }

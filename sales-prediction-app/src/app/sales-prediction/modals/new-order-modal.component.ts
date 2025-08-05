@@ -79,10 +79,37 @@ export class NewOrderModalComponent {
   }
 
   submit() {
-    if (this.form.valid) {
-      this.service.createOrder(this.data.custId, this.form.value).subscribe(() => {
+  if (this.form.valid) {
+    const formValues = this.form.value;
+
+    // Convertir los campos de cadena a número
+    const newOrder = {
+      ...formValues,
+      custId: this.data.custId,
+      empid: +formValues.empid, // Convierto a número usando el operador unario +
+      shipperid: +formValues.shipperid,
+      freight: +formValues.freight,
+      // Mapear los orderDetails para convertir productid, unitprice, qty y discount a números
+      orderDetails: formValues.orderDetails.map((detail: any) => ({
+        orderid: 0,
+        productid: +detail.productid,
+        unitprice: +detail.unitprice,
+        qty: +detail.qty,
+        discount: +detail.discount
+      }))
+    };
+
+    console.log('Objeto de la orden que se enviará:', newOrder);
+
+    this.service.createOrder(newOrder).subscribe({
+      next: (response) => {
+        console.log('Respuesta exitosa:', response);
         this.dialogRef.close(true);
-      });
-    }
+      },
+      error: (err) => {
+        console.error('Error al crear la orden:', err);
+      }
+    });
   }
+}
 }

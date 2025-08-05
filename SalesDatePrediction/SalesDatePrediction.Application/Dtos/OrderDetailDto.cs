@@ -19,8 +19,6 @@ namespace SalesDatePrediction.Application.Dtos
 
         public decimal discount { get; set; }
 
-        public virtual Order order { get; set; } = null!;
 
-        public virtual Product product { get; set; } = null!;
     }
 }
